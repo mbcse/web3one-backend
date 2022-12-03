@@ -3,9 +3,12 @@
 import dotenv from 'dotenv'
 import path, { dirname } from 'path'
 import { fileURLToPath } from 'url'
-import dbConstants from './dbConstants.json'
-import contract from './contract.json'
-import queue from './queue.json'
+import dbConstants from './dbConstants.json' assert { type: "json" };
+
+import contract from './contract.json' assert { type: "json" };
+
+import queue from './queue.json' assert { type: "json" };
+
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
