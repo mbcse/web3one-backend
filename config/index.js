@@ -106,6 +106,10 @@ export default {
 
   PRIVATE_KEYS: {
     COMMON: process.env.ADMIN_PRIVATE_KEY
+  },
+
+  MORALIS: {
+    API_KEY: process.env.MORALIS_API_KEY
   }
 
 }
