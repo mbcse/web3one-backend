@@ -48,6 +48,7 @@ app.use(session({
 }))
 app.use(compression())
 app.use(cookieParser())
+app.use(cors())
 /* app.use(cors())
 app.use(helmet({
   contentSecurityPolicy: {
